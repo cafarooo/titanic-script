@@ -1,7 +1,7 @@
 # This script takes the data from the 'Titanic' data set
 # and writes it to two separate files, one where the column
 # order is reversed and one where every other column is removed.
-# For some reason the Titanic data set has a file name of 'train.xlsx'.
+# For some reason the Titanic data set on Kaggle has a file name of 'train.xlsx'.
 import openpyxl
 from openpyxl import Workbook
 from string import ascii_uppercase
